@@ -38,7 +38,7 @@ buttons = [
 # Create buttons
 for row in buttons:
     frame = tk.Frame(root)
-    frame.pack(extand=True ,fill="both")
+    frame.pack(expand=True ,fill="both")
 
     for button in row:
 
